@@ -1,0 +1,64 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    margin-top: 50px;
+  }
+  
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  #forgotPassword {
+    color: #007bff;
+  }
+
+  /* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .building-area {
+    margin-bottom: 30px;
+  }
+  
+  .building {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .building h3 {
+    margin-top: 0;
+  }
+  
+  .classrooms {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 classrooms per row */
+    grid-gap: 10px;
+  }
+  
+  .classroom {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styling for classroom status */
+  .classroom.available {
+    background-color: lightgreen;
+  }
+  
+  .classroom.occupied {
+    background-color: tomato;
+  }
